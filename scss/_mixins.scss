@@ -1,0 +1,69 @@
+@mixin content-wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative
+}
+@mixin main-title($font-size,$color:$pink){
+    font-family: 'Integral',sans-serif;
+    letter-spacing: 1px;
+    color:$color;
+    font-size: $font-size;
+}
+
+@mixin flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rect-shape($deg){
+    -webkit-transform: rotate($deg); 
+    -ms-transform: rotate($deg);
+    transform: rotate($deg); 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: white;
+    position: absolute;
+    top: 25vh;
+    border: 1px solid #fafafa;
+    border-radius: 0px;
+    right: 25%;
+    left: 25%;
+    margin: auto;
+
+}
+
+@mixin media-view($arg...){
+    @if length($arg)==1 {
+        @media only screen and (max-width: nth($arg,1)){
+            @content;
+        }
+    }
+    @if length($arg)==2 {
+        @media only screen and (max-width: nth($arg,1)) and (min-width: nth($arg,2)) {
+            @content;
+        }
+    }
+    @if length($arg)==3 {
+        @media only screen and (min-width: nth($arg,1)){
+            @content;
+        }
+    }
+     
+    }
+@mixin left-side{
+    position: absolute;
+    left:10px;
+}
+@mixin right-side {
+    position: absolute;
+    right: 10px;
+}
+@mixin left-side-container($width) {
+    
+}
+@mixin right-side-container($width) {
+    
+}

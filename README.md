@@ -6,7 +6,7 @@
 > An example for a simple portfolio website.
 
 Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
-ASH is an portfolio website developed as a UI template for Tour.co
+ASH is a portfolio website developed as a UI template for Tour.co
 
 ## Built With
 
@@ -19,7 +19,7 @@ ASH is an portfolio website developed as a UI template for Tour.co
 AFnan Bayazed
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ShaikhahMaasher/qonaa/blob/master/README.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/afnanali1992/ASH/blob/master/README.mdgit remote add origin https://github.com/afnanali1992/ASH.git) file for details
 https://github.com/matiassingers/awesome-readme
 (https://github.com/ai/size-limit/blob/master/LICENSE)
 [change log](https://github.com/ai/size-limit/blob/master/CHANGELOG.md)
