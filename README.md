@@ -1,8 +1,8 @@
-# ASH - v0.1
+# AF - v0.1
 
 <img src="images/logo.png" align="right" />
 
-# ASH | [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matiassingers/awesome-readme)
+# AF | [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matiassingers/awesome-readme)
 > An example for a simple portfolio website.
 
 Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
